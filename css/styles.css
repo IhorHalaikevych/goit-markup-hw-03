@@ -1,0 +1,285 @@
+/* font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif; */
+
+:root {
+  --primary-accent-color: #ffffff;
+  --primary-brand: #4d5ae5;
+  --primary-pressed-state: #404bbf;
+  --body-text: #2e2f42;
+  --filter-selectors-bg: #f4f4fd;
+  --filter-selectors-borders: #e7e9fc;
+  --adress-text-color:#434455;
+}
+address {
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  font-size: 16px;
+  color: var(--body-text);
+  background-color: var(--primary-accent-color);
+  
+}
+
+
+
+/* Header */
+
+
+
+
+
+.header-links:hover,
+.header-links:focus,
+.header-links.current {
+  color: var(--primary-pressed-state);
+}
+
+.list {
+  
+  list-style: none;
+  /* text-decoration: none; */
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  color: var(--body-text);
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+
+  
+  text-transform: uppercase;
+}
+.logo-part {
+  color: var(--primary-brand);
+}
+
+.header-list {
+  list-style-type: none;
+}
+.header-links {
+ 
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+  color: var(--body-text);
+  text-decoration: none;
+}
+.header-links:hover {
+  color: var(--primary-pressed-state);
+}
+
+.adress-items { 
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: var(--adress-text-color);
+}
+.adress-items:hover{
+  color: var(--primary-pressed-state);
+
+}
+.adress-items:focus{
+  color: var(--primary-pressed-state);
+
+}
+
+
+
+
+/* Main */
+
+
+
+
+
+.hero {
+  background-color: var(--body-text);
+}
+.hero-header {
+ font-size: 56px;
+line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-accent-color);
+}
+.button {
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--primary-accent-color);
+}
+.btn-primary {
+  font-family:inherit;
+ 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  
+  background: var(--primary-brand);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background: var(--primary-pressed-state);
+}
+
+.desk-header{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+
+letter-spacing: 0.02em;
+
+}
+.desk-text{
+font-size: 16px;
+line-height: 1.5;
+color: var(--adress-text-color);
+
+letter-spacing: 0.02em;
+
+
+}
+.our-team {
+  background-color: var(--filter-selectors-bg);
+}
+.section-header {
+  
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-member-card{
+  background-color: var(--primary-accent-color);
+  
+}
+
+.member-name{
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+
+
+letter-spacing: 0.02em;
+}
+.member-position{
+font-size: 16px;
+line-height: 1.5;
+color: var(--adress-text-color);
+
+letter-spacing: 0.02em;
+}
+
+
+
+
+/* Footer */
+
+
+
+.footer-studio {
+  background-color: var(--body-text);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  color: var(--primary-accent-color);
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.2;
+
+
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.footer-text{
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-accent-color);
+  
+  letter-spacing: 0.02em;
+}
+
+
+
+/* Portfolio */
+
+
+
+
+.fillter-items {
+  list-style-type: none;
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+
+
+}
+/* buttons for fillter*/
+
+.filter-selectors {
+  font-family: inherit;
+  font-size: 16px;
+font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: var(--primary-brand);
+  background-color: var(--filter-selectors-bg);
+  border: 1px solid var(--filter-selectors-borders);
+}
+.filter-selectors:hover {
+  color: var(--primary-accent-color);
+  background-color: var(--primary-pressed-state);
+}
+.filter-selectors:focus {
+  color: var(--primary-accent-color);
+  background-color: var(--primary-pressed-state);
+}
+.service h2{
+
+font-size: 20px;
+line-height: 1.2;
+font-weight: 500;
+letter-spacing: 0.02em;;
+color: var(--body-text);
+
+}
+.service p{
+font-size: 16px;
+line-height: 1.5;
+color:var(--adress-text-color);
+
+letter-spacing: 0.02em;
+}
+
